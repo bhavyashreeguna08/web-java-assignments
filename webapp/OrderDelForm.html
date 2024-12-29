@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Delete Order</title>
+<style>
+	body{
+		background-color:#d6eaf8 
+	}
+</style>
+</head>
+<body>
+	<h2> Delete Order </h2>
+	<h3>
+	<form action="OrderServlet" method="post">
+		
+		<label for="orderId"> Order ID: </label>
+		<input type="text" id="orderId" name="orderId" required> <br><br>
+		
+		<input type="submit" name="action" value="Delete">
+	
+	</form>
+	<br><br>
+	<a href="OrderForm.html"> Back to Order Form </a>
+	</h3>
+	
+
+</body>
+</html>
